@@ -1,0 +1,77 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    background-color: #f2b6e0; /*73B5B0*/
+    margin: 0; 
+    padding: 0;
+    
+}
+.container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        margin: 100px;
+    
+}
+h1{
+    color: beige;
+}
+.picture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -160px;
+}
+img {
+    max-width: 250px;
+    height: auto;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 300px; /* Adjust the width as needed */
+
+}
+
+button {
+    
+
+    padding: 40px 80px ; /* Adjust padding as needed to change button size */
+    margin: -50px 70px 20px -40px;  /* Adjust margin as needed to space the buttons */
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 5%;
+}
+#b1 {
+    margin-left: -90px;
+    margin-right: 20px;
+    background-color: beige;
+}
+
+#b2 {
+    position: absolute; /* Ensure it's positioned absolutely for left and top to work */
+    left: 60%; /* Position it 50% from the left of its relative parent */
+    transform: translateX(-50%); /* Adjust to center-align the button horizontally */
+    top: 74%;
+    background-color: beige;
+    
+}
+
+#yuh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 100px;
+}
